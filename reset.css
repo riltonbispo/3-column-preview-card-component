@@ -1,0 +1,103 @@
+/* CSS Reset */
+
+/* Reset box-sizing to border-box for all elements */
+* {
+  box-sizing: border-box;
+}
+
+/* Reset margin and padding for all elements */
+body, figure, h1, h2, h3, h4, h5, h6, p, ol, ul, li, blockquote, button, dl, dd, dt, input, textarea, fieldset, legend, select, table, th, td, form {
+  margin: 0;
+  padding: 0;
+}
+
+/* Reset font size and font family for all elements */
+body, button, input, select, textarea {
+  font-size: 100%;
+  font-family: inherit;
+}
+
+/* Reset font weight and style for all elements */
+bold, strong {
+  font-weight: bold;
+}
+
+em, i {
+  font-style: italic;
+}
+
+/* Reset list styles for ul and ol elements */
+ul, ol {
+  list-style: none;
+}
+
+/* Reset anchor text decoration and color */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Reset table border collapse to separate */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+/* Reset form elements to have no default styles */
+button, input, select, textarea {
+  appearance: none;
+  border: none;
+  background: none;
+}
+
+/* Reset textarea resizing */
+textarea {
+  resize: vertical;
+}
+
+/* Reset default button styles */
+button {
+  cursor: pointer;
+}
+
+/* Reset default input styles */
+input[type="checkbox"], input[type="radio"] {
+  appearance: checkbox;
+}
+
+input[type="button"], input[type="reset"], input[type="submit"], button {
+  appearance: button;
+}
+
+/* Reset default input placeholder styles */
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 1;
+}
+
+:-moz-placeholder {
+  color: inherit;
+  opacity: 1;
+}
+
+::-moz-placeholder {
+  color: inherit;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: inherit;
+  opacity: 1;
+}
+
+/* Reset default select styles */
+select::-ms-expand {
+  display: none;
+}
+
+/* Reset default fieldset styles */
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
