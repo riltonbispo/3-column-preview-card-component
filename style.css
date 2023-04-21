@@ -95,7 +95,8 @@ body{
   }
 
   .all-card {
-    flex-direction: row ;
+    flex-direction: row;
+    width: 75%;
   }
 
   .card:nth-child(1){
